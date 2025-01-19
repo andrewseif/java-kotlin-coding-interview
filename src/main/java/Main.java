@@ -16,7 +16,7 @@ public class Main {
             gameState.gameCounter(game);
         }
 
-        System.out.println("Player A wins " + (100 - (gameState.getWin() + gameState.getDraws())) + " of 100 games");
+        System.out.println("Player A wins " + (rounds - (gameState.getWin() + gameState.getDraws())) + " of 100 games");
         System.out.println("Player B wins " + gameState.getWin() + " of 100 games");
         System.out.println("Draws: " + gameState.getDraws() + " of 100 games");
     }
